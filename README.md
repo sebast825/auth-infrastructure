@@ -1,4 +1,4 @@
-# AuthService
+# Auth Infrastructure
 
 
 ## Run App
