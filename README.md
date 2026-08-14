@@ -1,8 +1,8 @@
 # Auth Infrastructure
 
-This project focuses on the infrastructure side of authentication, designing a standalone system that preserves availability, traceability, and resource stability during brute force attacks, credential stuffing, and sudden traffic spikes.
+This project focuses on the infrastructure and reliability aspects of authentication. It implements authentication, session management, audit logging, and asynchronous processing designed to isolate database operations from the request flow and improve resilience under high request volumes.
 
-Rather than implementing a full identity management platform, the system is intentionally scoped around authentication, session handling, and defensive mechanisms, with architecture decisions driven by failure modes observed in real-world attack scenarios.
+Rather than implementing a full identity management platform, the system is intentionally scoped around authentication and defensive mechanisms, with architectural decisions based on common failure scenarios such as repeated authentication attempts, duplicate requests, and traffic spikes.
 
 ## Run App
 
